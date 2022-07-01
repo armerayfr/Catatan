@@ -1,0 +1,14 @@
+duplicate database mgs_yoksi
+
+
+
+delete database _mgs_armer_test
+create baru dengan nama apa aja
+
+
+
+duplikasi ----> buat duplicate database
+restore ----> masukin data dari local ke database
+backup ----> ambil data dari database (biasanya .zip)
+
+https://www.odoo.com/documentation/12.0/administration/db_management/db_online.html

@@ -1,0 +1,31 @@
+Tambahan MGS
+
+ketika payment register
+point 4 Customer Payment
+	- ketika pencet register payment, field invoice number & invoice data terupdate ambil data dari invoice (model = account.invoice)
+	- muncul register paymentnya pas kapan? pas kondisinya "open" di navbar
+	- nagivate register payment --> validate
+
+
+point 5:
+	sub point 5.1
+	project_codenya jangan dicomment, tampilin di view
+	
+	lalu, kita bikin addons baru untuk database pajak:
+	nama addons: mgs_hide_project_code (isinya inheritan ke view point 5.1) 
+	ada depend = [ke mgs_ext add-ons]
+	
+	Navigate to UI:
+	note: status(reported)
+	Expenses ---> 	View Report ---> print expense report ---> isi payment number (sesuai payment number) ---> date print ---> confirm
+	tinggal comment 	di add-ons employee expense
+
+
+
+database pajak
+bisa testing paka apa aja untuk database, pake database yang ada aja
+
+
+
+point 3 sub 2:
+pilih DO, ambil data dari delivery number

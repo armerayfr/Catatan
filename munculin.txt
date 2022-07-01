@@ -1,0 +1,5 @@
+Point 3.4 Munculin data delivery to invoice
+
+• Di sale.order ada relation stock.picking
+∘ Karena ada smart button yang mengarah ke stock.picking di sale.order
+∘ gimana caranya data yang ada di sale.order pindah ke account.invoice saat create invoice

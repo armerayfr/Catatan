@@ -1,0 +1,5 @@
+report in development (without download)
+
+
+your_url/report/pdf/{your_report_name}/{id}
+http://localhost:8014/report/pdf/laundry_service.report_order_laundry/105

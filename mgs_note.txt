@@ -1,0 +1,28 @@
+MGS
+
+1. SO and Invoice
+	1.1. Customer reference di SO dibuat text (modul bawaan: sale.order.client_order_ref) => overide dari Char ke Text
+∘ /home/user/Project/addons-custom/mgs_account_ext/models/models.py | client_order_ref (change to Text) | DONE
+	1.2. Source document di invoice: (nama field: origin | Projects/addons-custom/mgs_account_ext/models/model). Lets confirm??????
+
+
+5. Other Payment dan Purchase Payment
+	5.1.  Penghapusan label project code pada printout
+		- /home/user/Project/addons-custom/mgs_account_ext/reports/payment_slip.xml | uncomment project_code
+
+
+
+
+
+# inherit: same as a module existing
+
+
+
+
+
+4. Customer Payment
+• Penambahan field Invoice number: Menarik data dari invoices [invoice_ids]
+• Penambahan field Invoice date: Menarik data dari invoices [invoice_ids]
+• related fields
+• not sure show in view and section 
+∘ http://localhost:8012/web?debug=1#id=11245&view_type=form&model=account.payment&action=126
